@@ -42,7 +42,7 @@ class FileChecker:
     def is_outdated(
         output_path: str,
         dataset_path: str,
-        meta_path: str = "Meta/.meta.json"
+        meta_path: str = "Meta/meta.json"
     ) -> bool:
         if not os.path.exists(output_path):
             return True
@@ -66,7 +66,7 @@ class FileChecker:
     def register(
         output_path: str,
         dataset_path: str,
-        meta_path: str = "Meta/.meta.json"
+        meta_path: str = "Meta/meta.json"
     ) -> None:
         current_hash = FileChecker.compute_hash(dataset_path)
         meta = FileChecker.load_meta(meta_path)
