@@ -31,6 +31,7 @@ PREPROCESS_DIR = OUTPUT_DIR / "Model"
 EDA_DIR = PROJECT_ROOT / "EDA"
 POST_EDA_DIR = PROJECT_ROOT / "Postprocessing EDA"
 
+META_DIR = PROJECT_ROOT / "Meta"
 LOG_DIR = PROJECT_ROOT / "logs"
 
 # =============================================================================
