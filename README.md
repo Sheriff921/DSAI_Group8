@@ -25,36 +25,6 @@ using the World Bank Sustainable Energy for All (SE4ALL) dataset.
 
 ---
 
-## Project Structure
-
-```
-DSAI_Group8/
-│
-├── app.py
-├── config.py
-├── main.ipynb
-│
-├── pages/
-│ ├── 1_Home.py
-│ ├── 2_EDA.py
-│ ├── 3_Model_Prediction.py
-│ ├── 4_Model_Comparison.py
-│ └── 5_About.py
-│
-├── Utils/
-│
-├── Output/
-│ ├── models/
-│ └── Model/
-│
-├── Source/
-│ └── Dataset/
-│
-└── requirements.txt
-```
-
----
-
 ## Models
 
 ### Prophet
